@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="298dp"
+        android:contentDescription="Foto kórinistegi soraw"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:srcCompat="@drawable/photo1" />
+
+
+
+
+    <RadioGroup
+
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <RadioButton
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2" />
+
+        <RadioButton
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3" />
+
+        <RadioButton
+            android:id="@+id/four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4" />
+
+        <RadioButton
+            android:id="@+id/five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5" />
+
+        <RadioButton
+            android:id="@+id/six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6" />
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="300dp"
+
+
+        android:layout_height="60dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="56dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="300dp"
+
+        android:layout_height="80dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="480dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="55dp"
+        android:text="Keyingi">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="440dp"
+        android:width="90dp"
+        android:height="30dp"
+        android:text="5:00"
+        android:textSize="20dp"
+
+        android:textStyle="bold">
+
+    </TextView>
+
+
+
+
+</RelativeLayout>
